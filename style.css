@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+.navbar {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1f3ff;
+}
+
+.navbar_left {
+  width: 7%;
+  height: 30px;
+  line-height: 30px;
+  background-color: #0d28a6;
+}
+
+.navbar_right {
+  display: flex;
+  align-items: baseline;
+}
+
+.navbar_right > a {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.navbar_right > a > p {
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.register {
+  background-color: #5cb85f;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.hero {
+  display: flex;
+  padding-top: 20px;
+  background-color: #f1f3ff;
+}
+
+.hero_text {
+  width: 50%;
+  margin-left: 14.5%;
+  padding-top: 5%;
+}
+
+.hero_text h1 {
+  width: 100%;
+  line-height: 45px;
+}
+
+.hero_text p {
+  width: 80%;
+  line-height: 23px;
+  text-align: justify;
+  padding-bottom: 3%;
+}
+
+.btn_sewa {
+  background-color: #5cb85f;
+  width: 25%;
+  padding: 10px;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+}
+
+.hero_img {
+  width: 70%;
+}
+
+.hero_img img {
+  width: 100%;
+}
+
+.services {
+  display: flex;
+  width: 60%;
+  margin: 5% auto 0;
+  justify-content: space-around;
+}
+
+.services_img {
+  width: 50%;
+  margin-right: 10%;
+}
+
+.services_img img {
+  width: 400px;
+  padding-top: 20px;
+}
+
+.services_text p {
+  text-align: justify;
+  line-height: 23px;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 2px;
+}
+
+.icon_ceklis {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.why_us {
+  width: 73%;
+  margin: 7% auto 0;
+}
+
+.cards {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 20%;
+  text-align: left;
+  border: 2px solid rgb(216, 206, 206);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.card p {
+  line-height: 23px;
+}
+
+.card img {
+  width: 30px;
+}
+
+.testimonial {
+  margin-top: 7%;
+}
+
+.testimonial .title,
+.subtitle {
+  text-align: center;
+}
+
+.cards_testi {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  justify-content: space-between;
+}
+
+.card_testi {
+  display: flex;
+  padding: 0.75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  flex-basis: 30%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align: justify;
+}
+
+.info_testi {
+  display: flex;
+  flex-direction: column;
+}
+
+.foto {
+  width: 70px;
+  height: 70px;
+  margin: 60px 40px 0;
+}
+
+.info_testi .stars {
+  display: flex;
+}
+
+.info_testi .stars img {
+  width: 20px;
+}
+
+.info_testi p {
+  line-height: 23px;
+}
+
+.info_testi h5 {
+  margin-top: -10px;
+}
+
+.banner {
+  width: 73%;
+  margin: 5% auto 5%;
+  background-color: #0d28a6;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.banner_text {
+  width: 50%;
+  margin: 30px auto;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.question {
+  display: flex;
+  width: 73%;
+  margin: 5% auto 0;
+  justify-content: space-between;
+}
+
+.question_left {
+  width: 40%;
+}
+
+.question_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.select_box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 2px solid rgb(216, 206, 206);
+  padding: 0 20px;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.select_box img {
+  width: 35px;
+  height: 35px;
+}
+
+.footer {
+  display: flex;
+  width: 73%;
+  margin: 5% auto 10%;
+  justify-content: space-between;
+}
+
+.footer_one {
+  width: 20%;
+  line-height: 23px;
+}
+
+.footer_two {
+  width: 10%;
+}
+
+.footer_three {
+  width: 20%;
+}
+
+.footer_four {
+  width: 20%;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sosmed img {
+  width: 30px;
+  height: 30px;
+}
